@@ -3,4 +3,5 @@ BREVE DESCRIPCIÓN SOBRE LOS ELEMENTOS NECESARIOS PARA EL FUNCIONAMIENTO
 	+ bootstrap-3.3.7-dist
 	+ jquery
 	+ node_modules
+	+ views --> plantillas de jade y pug
 	
