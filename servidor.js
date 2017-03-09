@@ -26,12 +26,12 @@ app.get('/:producto', function(request, response){
 		if (producto.id == productoEscogido) {
 
 			response.render('productos',{
-				productoElegido: "producto.id",
-				nombreProducto: "producto.nombre",
-				precioProducto: "32",
-				descripcionProducto: "producto.descripcion",
-				usosProducto: "producto.usos",
-				cantidadDisponibleProducto: "4"
+				productoElegido: producto.id,
+				nombreProducto: producto.nombre,
+				precioProducto: producto.precio,
+				descripcionProducto: producto.descripcion,
+				usosProducto: producto.usos,
+				cantidadDisponibleProducto: producto.stock
 
 			});
 		}
