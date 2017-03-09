@@ -1,0 +1,6 @@
+BREVE DESCRIPCIÓN SOBRE LOS ELEMENTOS NECESARIOS PARA EL FUNCIONAMIENTO
+-CARPETAS
+	+ bootstrap-3.3.7-dist
+	+ jquery
+	+ node_modules
+	
