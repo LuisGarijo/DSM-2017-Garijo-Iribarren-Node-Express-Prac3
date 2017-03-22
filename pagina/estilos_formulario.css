@@ -1,51 +1,5 @@
-#cabeceraConfigure{
-	background-color: rgb(0,0,0);
-	height: 40px;
-}
 
-#logo{
-	height: 28px;
-	width: 156px; 
-	background-color: rgb(0,0,0);
-	position: relative;
-	top: 5px;
-}
-
-#separadorConfigure1{
-	background-color: rgb(100,100,100);
-	height: 5px;
-}
-
-#separadorConfigure2_1{
-	background-color: rgb(170,170,170);
-}
-
-#separadorConfigure2_2{
-	background-color: rgb(170,170,170);
-	height: 198px;
-}
-
-#separadorConfigure3{
-	background-color: rgb(255,255,255);
-	height: 30px;
-}
-
-#separadorConfigure4{
-	height: 30px;
-}
-
-#tituloHistoria1{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-#tituloHistoria2{
-	font-size: 20px;
-	font-weight: bold;
-	color: rgb(170,170,170);
-}
-
-#tituloSobreLaEmpresa{
+#tituloVolverPortada{
 	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
