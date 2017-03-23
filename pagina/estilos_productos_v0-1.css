@@ -1,5 +1,37 @@
 p.section{font-weight: 600}
 
+
+#tituloVolverPortada{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.enlaceboton {    font-family: verdana, arial, sans-serif; 
+   font-size: 10pt; 
+   font-weight: bold; 
+   padding: 4px; 
+   background-color: #b3d9ff; 
+   color: #666666; 
+   text-decoration: none; 
+} 
+.enlaceboton:link, 
+.enlaceboton:visited { 
+   border-top: 1px solid #cccccc; 
+   border-bottom: 2px solid #666666; 
+   border-left: 1px solid #cccccc; 
+   border-right: 2px solid #666666; 
+} 
+.enlaceboton:hover { 
+    border-bottom: 1px solid #cccccc; 
+   border-top: 2px solid #666666; 
+   border-right: 1px solid #cccccc; 
+   border-left: 2px solid #666666; 
+}
+
+
+
 #tabs{
   overflow: hidden;
   width: 100%;
