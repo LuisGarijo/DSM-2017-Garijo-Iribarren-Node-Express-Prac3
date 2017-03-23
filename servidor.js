@@ -11,6 +11,8 @@ var productos = [
 {id:'producto3', nombre:'GENUINO 101', precio:'95', MICRO:"Intel Curie", TF:"3.3V", UART:"14 I/O (4 proporcionan salida PWM)", FLASH:"196 kB", RAM:"24 kB", V:"32 MHz"}
 ];
 
+//para despliegue en Heroku
+var port = process.env.PORT || 3000;
 
 app.set('view engine', 'jade');
 app.use(express.static('pagina')); //para utilizar contenido estático residente 
@@ -94,4 +96,4 @@ app.post('/formulario.html', function (req, res) {
 
 
 
-app.listen(8050);
+app.listen(port);

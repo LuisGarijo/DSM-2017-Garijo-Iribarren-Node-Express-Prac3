@@ -1,0 +1,25 @@
+{
+  "name": "d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGarijo/DSM-2017-Garijo-Iribarren-Node-Express-Prac3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisGarijo/DSM-2017-Garijo-Iribarren-Node-Express-Prac3/issues"
+  },
+  "homepage": "https://github.com/LuisGarijo/DSM-2017-Garijo-Iribarren-Node-Express-Prac3#readme"
+}
