@@ -8,13 +8,12 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<!--CSS  -->
 	<script href="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-	<script src="jquery/jquery-3.1.1.min.js"></script>
+	<script src="jquery-3.1.1.min.js"></script>
 	<script src="portada.js"></script>
 	
 </head>
 
 <body>
-	<h1></h1>
 <div class="container">
 	<p>The Unofficial Arduino/Genuino Store</p>	
 </div>
@@ -30,55 +29,102 @@
 				</div>
 			</div>
 		</div>
-		
 
 	<div class="row text-center">
-	    <div class="col-sm-4" id="Genuino_ZERO">
+	    <div class="col-sm-4" id="Genuino_ZERO" data-precio='30'>
 	      <div class="thumbnail">
-	        <img src="img/genuino01.jpeg" width="400" height="300" data-precio='30'>
+	        <img src="img/genuino01.jpeg" width="400" height="300">
 	        <p class="section">Genuino ZERO</p>
-	        <button id="Genuino_ZERO_buy">Comprar</button>
-	      
-	      <div class = "divProducto" >  <button id = "infoProducto" onclick="window.location.href='/producto1'"> Información producto </button> </div>
+	        <button class="buy">Ver más</button>
+
+	        <div class = "divProducto" >  <button id = "infoProducto" onclick="window.location.href='/producto1'"> Información producto </button> </div>
+
 	      </div>
 	    </div>
 
-	    <div class="col-sm-4" id="Arduino_UNO">
+	    <div class="col-sm-4" id="Arduino_UNO" data-precio='40'>
 	      <div class="thumbnail">
-	        <img src="img/arduino11.jpeg" width="400" height="300" data-precio='40'>
+	        <img src="img/arduino11.jpeg" width="400" height="300">
 	        <p class="section">Arduino UNO</p>
-	        <button id="Arduino_UNO_buy">Comprar</button>
-	      
-	       <div class = "divProducto" >  <button id = "infoProducto" onclick="window.location.href='/producto2'"> Información producto </button> </div>
-	       </div>
+	        <button class="buy">Ver más</button>
+
+	        <div class = "divProducto" >  <button id = "infoProducto" onclick="window.location.href='/producto2'"> Información producto </button> </div>
+
+	      </div>
 	    </div>
 
-	    <div class="col-sm-4" id="Genuino_101">
+	    <div class="col-sm-4" id="Genuino_101" data-precio='50'>
 	      <div class="thumbnail">
-	        <img src="img/genuino21.jpeg" width="400" height="300" data-precio='50'>
+	        <img src="img/genuino21.jpeg" width="400" height="300">
 	        <p class="section">Genuino 101</p>
-	        <button id="Genuino_101_buy">Comprar</button>
-	      
-	       <div class = "divProducto" >  <button id = "infoProducto" onclick="window.location.href='/producto3'"> Información producto </button> </div>
+	        <button class="buy">Ver más</button>
+
+	        <div class = "divProducto" >  <button id = "infoProducto" onclick="window.location.href='/producto3'"> Información producto </button> </div>
 	       </div>
+	        
+	      </div>
 	    </div>
 	</div>
 
 	<div class="row">
 		<div class="col-md-offset-3 col-md-6" id="divPestanas">
 			
-				<ul id="tabs">
-				    <li><a href="#" title="tab1" id="precio">Precio</a></li>
-				    <li><a href="#" title="tab2" id="imagen">Imagen</a></li>
-				    <li><a href="#" title="tab3" id="descripcion">Descripción</a></li>
-				</ul>
+			<ul id="tabs">
+			    <li><a href="#" title="tab1" id="descripcion">Descripción</a></li>
+			    <li><a href="#" title="tab2" id="imagen">Imagen</a></li>
+			    <li><a href="#" title="tab3" id="precio">Precio</a></li>
+			</ul>
 
+			<div class="descripcion_panel">
+				<h5> Características </h5>
 				<div></div>
+			</div>
 
+			<div class="imagen_panel col-md-12">
+				<div class="main_image col-md-12"> <img class="main_image" src=""> </div>
+				<div class"col-md-12">
+					<div class="col-md-4"> <a href="#" class="main1"> <img class="small_1" src=""> </a> </div>
+					<div class="col-md-4"> <a href="#" class="main2"> <img class="small_2" src=""> </a> </div>
+					<div class="col-md-4"> <a href="#" class="main3"> <img class="small_3" src=""> </a> </div>
+				</div>
+			</div>
+
+			<div class="precio_panel">
+				<div class="precio_por_unidad"></div>
+				<input class="unidades" type="number" value="100" min="0"/>
+				<button class="actualizar_carrito">Actualizar</button>
+
+
+				<div class="carrito">
+					<p>Total: 0 €</p>
+					<button class="total_panel">Ver total</button>
+				</div>
+
+			</div>
+
+			<div class="carrito_panel">
+
+				<div class="col-md-12">
+					<div class="col-md-3">Genuino Zero</div>
+					<div class="col-md-3 carrito1">Units 1</div>
+					<button class="col-md-6" id="erase1">X</button>
+
+					<div class="col-md-3">Arduino Uno</div>
+					<div class="col-md-3 carrito2">Units 2</div>
+					<button class="col-md-6" id="erase2">X</button>
+
+					<div class="col-md-3">Genuino 101</div>
+					<div class="col-md-3 carrito3">Units 3</div>
+					<button class="col-md-6" id="erase3">X</button>
+				</div>
+
+				<button class="back">Back</button>
+
+			</div>
+			
 		</div>
 	</div>
 
-	
 
 </div>
 
