@@ -1,5 +1,8 @@
 p.section{font-weight: 600}
 
+#divInfor{
+  background-color: #ccffcc;
+}
 
 #tituloVolverPortada{
   font-size: 25px;
@@ -31,8 +34,6 @@ p.section{font-weight: 600}
 }
 
 
-
-p.section{font-weight: 600}
 
 #tabs{
   overflow: hidden;
